@@ -50,12 +50,11 @@ if ! grep -q "$id" "$file"; then
     echo "Aliases added to $file"
     echo "run: source $file"
     exit_script
-  else
-    exit_script
   fi
-  else
-    echo "Aliases already added to $file"
-    exit_script
+
+else
+  echo "Aliases already added to $file"
+  exit_script
 fi
 
 trap exit_script INT
