@@ -14,15 +14,15 @@ cat << EOF >> "$file"
 # $id
 
 # BUN 
-alias bi=bun install --no-save
-alias ba=bun add
-alias bx=bunx
-alias bxb=bunx --bun
+alias bi='bun install --no-save'
+alias ba='bun add'
+alias bx='bunx'
+alias bxb='bunx --bun'
 
 # GITHUB 
-alias gpr=git pull -f --rebase
-alias gp=git pull -f
-alias gm=git merge
+alias gpr='git pull -f --rebase'
+alias gp='git pull -f'
+alias gm='git merge'
 # END OF $id
 EOF
 }
